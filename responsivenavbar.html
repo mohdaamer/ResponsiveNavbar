@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <nav class="w-full bg-slate-800 flex items-center justify-between py-4">
+    <div class="logo text-white font-bold text-xl px-7">
+        <h1>Aamer.Dev</h1>
+    </div>
+    <div class=" text-white absolute top-0 left-0 py-14 w-full bg-slate-800 border-b border-[#fff] hidden md:block md:static md:py-0 md:border-none md:w-auto md:ml-auto md:mr-2 lg:mx-auto" id="navmenu">
+        <ul class="flex flex-col text-center gap-5 md:flex-row md:gap-4 uppercase">
+            <li><a href="#" class="navlink">About Me</a></li>
+            <li><a href="#" class="navlink">My Profile</a></li>
+            <li><a href="#" class="navlink">Contact Me</a></li>
+            <li><a href="#" class="navlink">Email</a></li>
+            <li><a href="#" class="navlink">Login</a></li>
+            <li><a href="#" class="navlink">Sign up</a></li>
+            <li><i class="fa-solid fa-xmark absolute top-5 right-12 text-2xl md:hidden" id="close"></i></li>
+        </ul>
+    </div>
+    <div class="icons text-white mr-3">
+        <i class="fa-solid fa-moon text-2xl mr-4" id="moon"></i>
+        <i class="fa-solid fa-bars text-2xl mr-3 md:hidden" id="hamburger"></i>
+    </div>
+  </nav>
+  <script src="./script.js"></script>
+</body>
+</html>
